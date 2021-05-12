@@ -168,7 +168,7 @@ left: -5px;
 
     background-color:  #DEEBFF;
     position : relative;
-    right : 10px;
+    right : 2px;
 
 }
 
@@ -178,11 +178,11 @@ left: -5px;
  padding-left: 0px;
  padding-right: 10px;
  padding-bottom: 0px; 
- border-top-right-radius: 20px;
- border-bottom-right-radius: 20px;
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
 
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 
@@ -342,11 +342,13 @@ aside {
     background-color: white;
     padding : 5px;
     border-radius: 10px;
+    float: right;
+
 }
 .style_aside a {
 
     color:black;
-
+ 
 }
 
 /*aside a {
@@ -369,10 +371,39 @@ aside {
 }
 
 .img_populaires {
-    float: left;
+    /*display: flex;
+
+    flex-direction:column; */
+  float: left;
+  padding-right: 10px;
 }
 
 
 /*Aside */
 
 
+/*Activités*/
+
+.img_activites_height { 
+    height : 400px ;
+width : 300px ;
+border-radius: 10px 10px 0 0 ;
+}
+
+.img_activites_width { 
+    height : 150px ;
+width : 300px;
+border-radius: 10px 10px 0 0 ;
+}
+
+
+.style_activités a  { color : black;}
+
+.style_activités { 
+    display: inline-flex;
+
+    flex-wrap: wrap;
+}
+
+
+/*Activités*/
