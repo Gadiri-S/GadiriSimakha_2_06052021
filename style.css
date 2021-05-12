@@ -154,7 +154,7 @@ left: -5px;
     padding-top: 10px;
     padding-bottom: 10px;
 
-    border-radius: 50%;
+ border-radius: 50%;
    
 
 }
@@ -168,7 +168,7 @@ left: -5px;
 
     background-color:  #DEEBFF;
     position : relative;
-    right : 20px;
+    right : 10px;
 
 }
 
@@ -178,7 +178,11 @@ left: -5px;
  padding-left: 0px;
  padding-right: 10px;
  padding-bottom: 0px; 
- border-radius: 0 20px 20px 0;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 
@@ -189,20 +193,20 @@ left: -5px;
     padding-right: 9px;
     border-radius: 50%;
     position : relative;
-    right : 20px;
+    right : 10px;
 }
 
 
 
 #heart {
     position : relative;
-    right : 20px;
+    right : 10px;
 }
 
 #dog {
     height:20px;
     position : relative;
-    right : 20px;
+    right : 10px;
     top: 0px;
 }
 
@@ -269,7 +273,7 @@ left: -5px;
 #Hebergements {
   
     background-color: #F2F2F2;
-     margin: 15px;
+     margin: auto;
     border-radius: 10px;
     max-width: 70% ;
 }
@@ -315,11 +319,11 @@ em {
 }
 
 
-#tit {
+/*#tit {
     
     max-width: 70%;
     margin-left: 60px;
-}
+}*/
     
 
 
@@ -362,6 +366,10 @@ aside {
 
 .graph {
     margin-left: 70px;
+}
+
+.img_populaires {
+    float: left;
 }
 
 
