@@ -348,12 +348,13 @@ aside {
     border-radius: 10px;
     margin-left: 25px;
     position: relative;
-}
+} 
 .style_aside p {
     background-color: white;
     padding : 5px;
     border-radius: 10px;
     float: right;
+    /*margin:auto;*/
 
 }
 .style_aside a {
@@ -361,6 +362,7 @@ aside {
     color:black;
  
 }
+
 
 
 #Hebergements h2 {
@@ -389,7 +391,6 @@ aside {
 }
 
 
-
 /*Aside */
 
 
@@ -410,11 +411,17 @@ border-radius: 10px 10px 0 0 ;
 
 .style_activités a  { color : black;}
 
-.style_activités { 
+.container3 { 
     display: inline-flex;
+flex-direction: row;
+flex-wrap: nowrap;
+    /*flex-flow: row;*/
 
-    flex-flow: row wrap;
+}
 
+.style_activités {
+    border: auto;
+    /*border: 1px solid red; */
 }
 
 .style_activités p {
@@ -428,5 +435,38 @@ border-bottom-right-radius: 10px;
     margin-left: 10px;
 }
 
+.fort {
+   align-self: flex-start;
+}
+.parc {
+align-self: flex-end;
+position:relative ;
+right :656px;
 
+
+
+}
+.frioul {
+    align-self: flex-end;
+   /* justify-content: flex-start;*/
+    position:relative ;
+    right :328px;
+    
+
+}
+.notre {
+    align-self: flex-start;
+    position:relative;
+right: 328px;
+}
+.port {
+
+
+}
+
+.calanques {
+align-self: flex-start;
+position:relative;
+right: 328px;
+}
 /*Activités*/
