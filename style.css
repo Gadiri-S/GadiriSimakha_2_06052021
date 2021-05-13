@@ -2,8 +2,8 @@
 
 
  .container {
-    max-width : 1281px;
-    margin: 0 auto;
+    max-width: 1281px;
+    margin: auto;
     font-family: 'Raleway', sans-serif;
     color:black;
 
@@ -28,7 +28,7 @@ align-items: flex-end;
 }
 /*Logo */
 #logo {
-    margin-left: 25px;
+    /*margin-left: 25px;*/
     margin-top: 15px;
 }
 /*Nav bar*/
@@ -52,21 +52,49 @@ nav a:hover {
 footer {
     display: flex;
     justify-content: space-between;
-max-width: 60%;
+max-width: 75%;
+margin-left: 15px;
 
  }
  
+ footer h2 {
+font-size: 18px; }
 
 #footer {
     background-color: #F2F2F2;
 
 }
-li:not(:last-child) {
-    margin-bottom: 10px;
+footer li:not(:last-child) {
+   margin-bottom: 10px; 
 }
 
-#Apropos h2 {
-    margin-left: 15px;
+
+
+#NosHebergements ul {
+    display: flex;
+    flex-direction: column;
+padding-left: 0px;   
+
+}
+
+
+#Assistance ul {
+    display: flex;
+    flex-direction: column;
+padding-left: 0px;   
+ }
+
+#Apropos {
+    text-align: left;
+    padding-left: 0px;
+   
+}
+
+#Apropos ul {
+    display: flex;
+    flex-direction: column;
+padding-left: 0px;   
+ 
 }
 /*Footer*/
 
@@ -78,7 +106,7 @@ h1 {
 }
 h2 {
     font-size: 20px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 
@@ -91,10 +119,10 @@ footer li {
 
 /*Corps*/
 p {
-    margin-left: 25px;
-}
+    margin-left: /*25px*/ auto;
+} 
 h1 {
-    margin-left: 25px;
+    /*margin-left: 25px;*/
 }
 
 /*bouton*/
@@ -104,11 +132,14 @@ h1 {
     background-color:  #0065FC;
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
-    height : 31px;
+    height : 43px;
+    width: 100px;
+    font-size: 13px;
     border: none;
     border-radius: 0px 10px 10px 0px;
+    margin: 0px;
 position: relative;
-left: -5px;
+left: -10px;
     }
 
 
@@ -116,48 +147,68 @@ left: -5px;
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
     color:black;
+    font-size : 14px;
+    padding-left: 20px;
 }
 #localisation {
-    margin-left: 45px;
-    height: 27.5px;
+   /* margin-left: 45px;*/
+    height: 40px;
+    width: 230px;
     border : solid #F2F2F2 1px;
+position: relative;
+right: 5px;
 }
 #local {
     background-color:#F2F2F2;
-    height: 25px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 6.5px;
-    border-radius:10px 0px 0px 10px;
-    margin-left: -25px;
+    height: 31.2px;
+    padding-right: 15px;
+    padding-left: 15px;
+   padding-top: 12.5px;
+   padding-bottom:0px;
+    border-radius : 10px 0px 0px 10px;
+    margin-left: /*-25px;*/ auto;}
 
-    position : relative;
+    /*position : relative;
     right : -49px;
 
-}
+}*/
 /*Bouton*/
 
 /*Filtres*/
 
-#Filtres {
+#Filtres ul {
     display: flex;
-    justify-content: space-between;
-    max-width: 60%;
-    font-weight: 900 ;
+    justify-content:space-between;
+    padding-left: 0px;
+    max-width: 75%;
+    font-weight: 900;
+    font-size: 15px;
+   /* }
+#Filtres li {*/
+    
+/*border:3px solid #F2F2F2;*/
+border-radius: 35px;
+border-left: none;
+}
+#titre_filtres {
+    position: relative;
+    top:10px;
 }
 
- ul i {
+ .icon {
+     
     color:#0065FC;
     background-color: #DEEBFF;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
 
- border-radius: 50%;
    
 
-}
+} 
+
 #child {
     
     padding-left: 12px;
@@ -173,8 +224,9 @@ left: -5px;
 }
 
 
+
 .Filtres {
-    border: 2px solid #F2F2F2 ;
+   border: 2px solid #F2F2F2 ;
  padding-left: 0px;
  padding-right: 10px;
  padding-bottom: 0px; 
@@ -193,31 +245,35 @@ left: -5px;
     padding-right: 9px;
     border-radius: 50%;
     position : relative;
-    right : 10px;
+    right : 1px;
 }
 
 
 
 #heart {
     position : relative;
-    right : 10px;
+    right : 1px;
 }
 
 #dog {
-    height:20px;
+    /*height:0px;*/
     position : relative;
-    right : 10px;
+    right : 1px;
     top: 0px;
 }
 
 #Animaux {
-    margin-bottom: 12px;
+    position:relative;
+    right: 1px;
+    margin-bottom: auto;
+   /* margin-top: 1px;*/
 }
 #Romantique {
-    margin-bottom:  15.5px; 
+    margin-bottom:  auto; 
 }
 #Familial {
-    margin-bottom:15.5px ;
+    margin-bottom:auto ;
+    
 
 }
 #Economique {
@@ -225,10 +281,11 @@ left: -5px;
 
 }
 
-
-#titre_filtres {
-   position :relative;
-   top : 10px;
+#Filtres a {
+    color:black;
+}
+#Filtres a :hover {
+    transform: scale(1.5);
 }
 
 #info {
@@ -277,6 +334,7 @@ left: -5px;
 
 #Hebergements {
     
+    
   
     background-color: #F2F2F2;
      margin-left: 0px; /*margin:auto*/
@@ -284,6 +342,7 @@ left: -5px;
     border-radius: 10px;
     max-width: 70%;
 }
+
 
 
 /*section  {
@@ -307,6 +366,8 @@ left: -5px;
 
 }
 .test p {
+    
+
     background-color: white;
     padding : 5px;
     border-radius: 10px;
@@ -396,6 +457,14 @@ aside {
 
 /*Activités*/
 
+#Activités {
+    margin-left: 0px;
+    padding-bottom: 50px;
+}
+#Activités p {
+    margin-left: auto;
+}
+
 .img_activites_height { 
     height : 400px ;
 width : 300px ;
@@ -414,8 +483,8 @@ border-radius: 10px 10px 0 0 ;
 .container3 { 
     display: inline-flex;
 flex-direction: row;
-flex-wrap: nowrap;
-    /*flex-flow: row;*/
+/*flex-wrap: nowrap;
+    flex-flow: row;*/
 
 }
 
@@ -437,11 +506,14 @@ border-bottom-right-radius: 10px;
 
 .fort {
    align-self: flex-start;
+   margin-right: 25px;
+
 }
 .parc {
 align-self: flex-end;
 position:relative ;
 right :656px;
+margin-left: 25px;
 
 
 
@@ -451,7 +523,8 @@ right :656px;
    /* justify-content: flex-start;*/
     position:relative ;
     right :328px;
-    
+    margin-right: 25px;
+
 
 }
 .notre {
@@ -461,10 +534,13 @@ right: 328px;
 }
 .port {
 
+    margin-right: 25px;
 
 }
 
 .calanques {
+    margin-right: 25px;
+
 align-self: flex-start;
 position:relative;
 right: 328px;
