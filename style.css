@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 
+/*media queries*/
+
+
+
+
  .container {
-    max-width: 1281px;
-    margin: auto;
+   max-width: 1281px;
+   margin: auto;
     font-family: 'Raleway', sans-serif;
     color:black;
 
@@ -173,8 +178,8 @@ right: 5px;
 /*Filtres*/
 
 #Filtres ul {
-    display: flex;
-    justify-content:space-between;
+   display: flex;
+ justify-content:space-between;
     padding-left: 0px;
     max-width: 75%;
     font-weight: 900;
@@ -476,14 +481,16 @@ border-radius: 10px 10px 0 0 ;
 
 .container3 { 
     display: inline-flex;
-flex-direction: row;
-/*flex-wrap: nowrap;
+
+/*flex-direction: row;
     flex-flow: row;*/
 
 }
 
 .style_activités {
-    border: auto;
+    /*display: inline-flex;*/
+
+  border: auto;
     border: 1px solid red; 
 }
 
@@ -493,7 +500,7 @@ flex-direction: row;
     box-shadow: 0px 8px 10px -3px rgba(0,0,0,0.19);
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
-border: 1px solid red; 
+/*border: 1px solid red; */
 
 
 }
@@ -501,49 +508,128 @@ border: 1px solid red;
 .style_activités  em {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+   /* margin-left: 10px;*/
 
 }
 
 .fort {
-   align-self: flex-start;
-   margin-right: 25px;
+
+align-self:flex-start;  
+
+
+/*  align-self: flex-end;
+ /* align-self:center;
+    margin-right: 25px;*/
 
 }
 .parc {
 align-self: flex-end;
-position:relative ;
+/*position:relative ;
 right :656px;
-margin-left: 25px;
+margin-left: 25px;*/}
 
 
 
-}
+
 .frioul {
-    align-self: flex-end;
-   /* justify-content: flex-start;*/
+    align-self:flex-end;  
+    justify-content: flex-end;
+  /*  align-self: flex-end;
+    justify-content: flex-start;
     position:relative ;
     right :328px;
-    margin-right: 25px;
+    margin-right: 25px*/}
 
 
-}
+
 .notre {
     align-self: flex-start;
-    position:relative;
-right: 328px;
+  /*  position:relative;
+right: 328px;*/
 }
 .port {
-
-    margin-right: 25px;
+    align-self: flex-start;
+    /*margin-right: 25px;*/
 
 }
 
 .calanques {
-    margin-right: 25px;
 
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 25px;*/
+/*
 align-self: flex-start;
 position:relative;
-right: 328px;
+right: 328px;*/
 }
 
+
+@media screen and (max-width: 600px) {
+    
+footer {
+display: flex;
+flex-direction: column;
+
+}
+#Hebergements, section {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+aside {
+    display:flex;
+    flex-direction: column;
+justify-content: left;   
+ width: 100%;
+ margin: auto;
+float: left;}
+
+.style_activités {
+   
+border-color:blueviolet;
+
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+ .frioul   {
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+    width: 100%;
+/*justify-content: flex-start;*/ }
+
+body {
+
+    display: flex;
+}
+  #grande_section {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+
+  #Filtres ul  {
+      display: inline-flex;
+      flex-direction: column;
+  }
+  #titre_filtres {
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  #Familial {
+    display: inline-flex;
+    flex-direction: row;
+
+  }
+}
