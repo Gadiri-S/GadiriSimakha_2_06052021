@@ -652,7 +652,7 @@ body {
     padding-bottom: 25px;
   }
   #Familial {
-    display: inline-flex;
+    display: inline-flex; 
     flex-direction: row;
 
   }
