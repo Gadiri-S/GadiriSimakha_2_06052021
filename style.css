@@ -508,7 +508,7 @@ border-bottom-right-radius: 10px;
 .style_activités  em {
     display: flex;
     align-items: center;
-   /* margin-left: 10px;*/
+    margin-left: 10px;
 
 }
 
@@ -517,16 +517,15 @@ border-bottom-right-radius: 10px;
 align-self:flex-start;  
 
 
-/*  align-self: flex-end;
- /* align-self:center;
-    margin-right: 25px;*/
+ align-self:center;
+    margin-right: 25px;
 
 }
 .parc {
 align-self: flex-end;
-/*position:relative ;
+position:relative ;
 right :656px;
-margin-left: 25px;*/}
+margin-left: 25px;}
 
 
 
@@ -534,22 +533,22 @@ margin-left: 25px;*/}
 .frioul {
     align-self:flex-end;  
     justify-content: flex-end;
-  /*  align-self: flex-end;
+    align-self: flex-end;
     justify-content: flex-start;
     position:relative ;
     right :328px;
-    margin-right: 25px*/}
+    margin-right: 25px;}
 
 
 
 .notre {
     align-self: flex-start;
-  /*  position:relative;
-right: 328px;*/
+   position:relative;
+right: 328px;
 }
 .port {
     align-self: flex-start;
-    /*margin-right: 25px;*/
+    margin-right: 25px;
 
 }
 
@@ -557,11 +556,11 @@ right: 328px;*/
 
     display: flex;
     flex-direction: column;
-    /*margin-right: 25px;*/
-/*
+    margin-right: 25px;
+
 align-self: flex-start;
 position:relative;
-right: 328px;*/
+right: 328px;
 }
 
 
@@ -632,4 +631,14 @@ body {
     flex-direction: row;
 
   }
+  
+#Filtres ul {
+   }
+
+   #Economique {
+    padding-right: 0px;
+        margin-bottom:auto ;
+    
+    }
+   
 }
