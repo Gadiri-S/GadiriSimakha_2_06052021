@@ -491,12 +491,25 @@ margin-bottom: 25px;
   }
 
   
-.port { grid-area: 1 / 1 / 3 / 2; }
-.fort { grid-area: 1 / 2 / 2 / 3; }
-.frioul { grid-area: 2 / 2 / 3 / 3; }
-.calanques { grid-area: 1 / 3 / 3 / 4; }
-.notre { grid-area: 1 / 4 / 2 / 5; }
-.parc { grid-area: 2 / 4 / 3 / 5; }
+.port 
+{ 
+    grid-area: 1 / 1 / 3 / 2; 
+}
+.fort { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.frioul { 
+    grid-area: 2 / 2 / 3 / 3; 
+}
+.calanques { 
+    grid-area: 1 / 3 / 3 / 4; 
+}
+.notre { 
+    grid-area: 1 / 4 / 2 / 5; 
+}
+.parc { 
+    grid-area: 2 / 4 / 3 / 5;
+ }
 
 
 
