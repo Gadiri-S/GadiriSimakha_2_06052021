@@ -413,8 +413,8 @@ aside {
     background-color: white;
     padding : 5px;
     border-radius: 10px;
-    float: right;
-    /*margin:auto;*/
+   /* float: right;
+    margin:auto;*/
 
 }
 .style_aside a {
@@ -442,24 +442,26 @@ aside {
 }
 
 .img_populaires {
-  /*  display: flex;
-
-    flex-direction:column; 
-    margin: auto;*/
+    display: flex;
+flex-direction:row; 
+   /* margin: auto;
+    justify-content: flex-end;
   float: left; 
-  padding-right: 10px;
-}
+  padding-right: 10px;*/}
 
+.text_style {
+    display: flex;
+    flex-direction:column; 
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
 
 /*Aside */
 
 
 /*Activités*/
 
-#Activités {
-    margin-left: 0px;
-    padding-bottom: 50px;
-}
+
 #Activités p {
     margin-left: auto;
 }
@@ -479,20 +481,24 @@ border-radius: 10px 10px 0 0 ;
 
 .style_activités a  { color : black;}
 
-.container3 { 
-    display: inline-flex;
+.container_grid { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 0px;
+margin-bottom: 25px;
+  }
 
-/*flex-direction: row;
-    flex-flow: row;*/
+  
+.port { grid-area: 1 / 1 / 3 / 2; }
+.fort { grid-area: 1 / 2 / 2 / 3; }
+.frioul { grid-area: 2 / 2 / 3 / 3; }
+.calanques { grid-area: 1 / 3 / 3 / 4; }
+.notre { grid-area: 1 / 4 / 2 / 5; }
+.parc { grid-area: 2 / 4 / 3 / 5; }
 
-}
 
-.style_activités {
-    /*display: inline-flex;*/
-
-  border: auto;
-    border: 1px solid red; 
-}
 
 .style_activités p {
 
@@ -506,61 +512,13 @@ border-bottom-right-radius: 10px;
 }
 
 .style_activités  em {
-    display: flex;
+   display: flex;
     align-items: center;
     margin-left: 10px;
 
 }
 
-.fort {
 
-align-self:flex-start;  
-
-
-    margin-right: 25px;
-
-}
-.parc {
-align-self: flex-end;
-position:relative ;
-right :656px;
-margin-left: 25px;}
-
-
-
-
-.frioul {
-    align-self:flex-end;  
-    justify-content: flex-end;
-    align-self: flex-end;
-    justify-content: flex-start;
-    position:relative ;
-    right :328px;
-    margin-right: 25px;}
-
-
-
-.notre {
-    align-self: flex-start;
-   position:relative;
-right: 328px;
-}
-.port {
-    align-self: flex-start;
-    margin-right: 25px;
-
-}
-
-.calanques {
-
-    display: flex;
-    flex-direction: column;
-    margin-right: 25px;
-
-align-self: flex-start;
-position:relative;
-right: 328px;
-}
 
 
 @media screen and (max-width: 600px) {
