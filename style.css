@@ -57,7 +57,7 @@ nav a:hover {
 footer {
     display: flex;
     justify-content: space-between;
-max-width: 75%;
+max-width: 70%;
 margin-left: 15px;
 
  }
@@ -283,9 +283,24 @@ border-left: none;
 #Filtres a {
     color:black;
 }
-#Filtres a :hover {
+.Filtres a :hover {
     transform: scale(1.5);
+    
 }
+#Economique :hover {
+color: green;
+}
+#Familial :hover {
+    color: blueviolet;
+    }
+    #Romantique :hover {
+        color: red;
+        }
+        #Animaux :hover {
+            color: rgb(134, 0, 0);
+            }
+                        
+
 
 #info {
     color: #0065FC;
@@ -332,9 +347,7 @@ border-left: none;
 }
 
 #Hebergements {
-    display:inline-flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  
     border-radius: 10px;
     max-width: 70%;
     background-color: #F2F2F2;
@@ -347,10 +360,12 @@ border-left: none;
 
  section  {
     
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    
+    align-items: center;
+
 } 
 
 
@@ -358,13 +373,16 @@ border-left: none;
     color:black;
 
 }
-.test p {
+.test p  {
     
-
     background-color: white;
     padding : 5px;
     border-radius: 10px;
+    margin: 10px;
+
 }
+
+
 
 .blue {
     color:#0065FC;
@@ -395,18 +413,28 @@ aside {
     margin-left: 20px; 
    padding : 25px;
     border-radius: 10px;
-    margin-left: 25px;
+   /*  padding : 25px;
+   margin-left: 25px;*/
 } 
     
 
-.style_aside p {
+/*.style_aside {
+    display: inline-flex;
+    justify-content: space-between;
     background-color: white;
     padding : 5px;
-    border-radius: 10px;}
+    border-radius: 10px;
+    margin: 15px;
+    
+}*/
   
+.style_aside {
+    background-color: white;
+border-radius: 10px;}
 .style_aside a {
 
     color:black;
+    
  
 }
 
@@ -423,26 +451,29 @@ aside {
     margin-left: 35px;
 }
 
-/*.graph {
+.graph {
    float: right;
    margin-right: 25px;
-} */
+} 
 
-/*.img_populaires {
+.img_populaires {
     display: flex;
 flex-direction:row; 
-    margin: auto;
+    margin: 0px;
     justify-content: flex-end;
   float: left; 
-  padding-right: 10px;}
+  padding-right: 10px;
+ }
 
-.text_style {
+/*.text_style {
     display: flex;
     flex-direction:column; 
     justify-content: flex-end;
     flex-wrap: wrap;
 }*/
-
+aside .blue {
+    display: inline-flex;
+justify-content: end;}
 /*Aside */
 
 
