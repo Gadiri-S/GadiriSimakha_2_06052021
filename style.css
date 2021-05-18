@@ -427,7 +427,7 @@ aside {
 
 
 
-.style_aside  {
+/*.style_aside  {
 
     display: flex;
     flex-direction: column;
@@ -435,23 +435,27 @@ aside {
     color:black;
 padding-bottom: 15px;
     
-}
+}*/
 
 .style_aside a {
+    display: flex;
+    margin-bottom: 15px;
 background-color: white;
+
 padding: 6px;
-padding-bottom: 0px;
+
 border-radius: 15px;
 color: black;
 }
 
 figcaption {
 
+    margin-left: 10px;
+
 
   }
 
-    
-
+ 
 
 
 
@@ -483,7 +487,7 @@ border-radius: 10px 10px 0 0 ;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 100px;
+grid-column-gap: 35px;
 grid-row-gap: 0px;
 margin-bottom: 25px;
 max-width: 100%;
