@@ -398,48 +398,6 @@ em {
 }
 
 
-
-
-
-/*Aside*/
-
-
-aside {
-    flex:1.2;
-    display: flex;
-   flex-direction: column; 
-    background-color: #F2F2F2;
-    color:black;
-    margin-left: 20px; 
-   padding : 25px;
-    border-radius: 10px;
-   /*  padding : 25px;
-   margin-left: 25px;*/
-} 
-    
-
-/*.style_aside {
-    display: inline-flex;
-    justify-content: space-between;
-    background-color: white;
-    padding : 5px;
-    border-radius: 10px;
-    margin: 15px;
-    
-}*/
-  
-.style_aside {
-    background-color: white;
-border-radius: 10px;}
-.style_aside a {
-
-    color:black;
-    
- 
-}
-
-
-
 #Hebergements h2 {
     color:black;
     margin-left: 25px;
@@ -451,29 +409,56 @@ border-radius: 10px;}
     margin-left: 35px;
 }
 
-.graph {
-   float: right;
-   margin-right: 25px;
+
+/*Aside*/
+
+aside {
+    flex:1.2;
+    display: flex;
+   flex-direction: column; 
+    background-color: #F2F2F2;
+    color:black;
+    margin-left: 20px; 
+   padding : 25px;
+    border-radius: 10px;
+   
 } 
+    
 
-.img_populaires {
-    display: flex;
-flex-direction:row; 
-    margin: 0px;
-    justify-content: flex-end;
-  float: left; 
-  padding-right: 10px;
- }
 
-/*.text_style {
+
+.style_aside  {
+
     display: flex;
-    flex-direction:column; 
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}*/
-aside .blue {
-    display: inline-flex;
-justify-content: end;}
+    flex-direction: column;
+    justify-content: space-between;
+    color:black;
+padding-bottom: 15px;
+    
+}
+
+.style_aside a {
+background-color: white;
+padding: 6px;
+padding-bottom: 0px;
+border-radius: 15px;
+color: black;
+}
+
+figcaption {
+
+    float: right;
+    padding-right: 50px;
+
+  }
+
+    
+
+
+
+
+
+
 /*Aside */
 
 
@@ -500,7 +485,7 @@ border-radius: 10px 10px 0 0 ;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 40px;
+grid-column-gap: 100px;
 grid-row-gap: 0px;
 margin-bottom: 25px;
 max-width: 100%;
@@ -558,10 +543,10 @@ flex-direction: column;
 
 }
 h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 #Hebergements h2 {
-    font-size: 20px;
+    font-size: 15px;
 }
 #Hebergements {
     order:2;
@@ -601,39 +586,7 @@ justify-content: left;
     width: 100%;
 }
 
- .frioul   {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-
-    position:relative ;
-    right :170px;
-    width: 100%;
- }
-
-
-.parc {
-    align-self: flex-start;
-    position:relative ;
-    right :0;
-    margin-left: 0px;}
-
-    .calanques {
-
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-    
-    align-self: flex-start;
-    position:relative;
-    right: 0px;
-    }
-    .notre {
-        display: flex;
-        align-self: flex-start;
-       position:relative;
-    right: 0px;
-    }
+ 
 
 body {
 
@@ -669,4 +622,23 @@ body {
     
     }
    
+.container_grid {
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;}
+
+.img_activites_height {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 350px;
+    max-width: 100%;
+}
+
+.img_activites_width {
+    height: 150px;
+    width: 350px;
+}
+
+
 }
