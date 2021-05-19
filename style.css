@@ -145,6 +145,12 @@ left: -10px;
     }
 
 
+    .button_small {
+        visibility: hidden;
+    }
+
+
+
 ::placeholder {
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
@@ -286,7 +292,7 @@ border-left: none;
     
 }
 #Economique :hover {
-color: green;
+color: blue;
 }
 #Familial :hover {
     color: blueviolet;
@@ -498,7 +504,7 @@ object-fit: cover;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 100px;
+grid-column-gap: 70px;
 grid-row-gap: 0px;
 margin-bottom: 25px;
 max-width: 100%;
@@ -552,6 +558,27 @@ border-bottom-right-radius: 10px;
     
 /* Header */
 
+#logo {
+    padding-bottom: 100px;
+}
+
+nav {
+
+
+}
+
+#menu_Activités {
+    width: 50%;
+    padding-top: 100px;
+
+}
+#menu_Hebergements {
+    width: 50%;
+    padding-top: 100px;
+}
+
+
+
 #Filtres ul  {
     display: inline-flex;
     flex-direction: column;
@@ -563,7 +590,6 @@ border-bottom-right-radius: 10px;
   padding-bottom: 25px;
 }
 #Familial {
-  display: inline-flex; 
   margin:auto ;
 
 
@@ -589,6 +615,30 @@ border-bottom-right-radius: 10px;
 }
 
 
+
+
+
+
+
+
+
+#Rechercher {
+    visibility: hidden;
+}
+.button_small {
+    visibility: visible;
+    color: white;
+    background-color: #0065FC;
+    position: relative;
+    left: -120px;
+    border: 0px;
+    height: 44px;
+    padding-right: 17px;
+    padding-left: 17px;
+
+    border-radius :  10px ;
+   
+}
 /*footer*/
 
 footer {
