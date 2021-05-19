@@ -504,7 +504,7 @@ object-fit: cover;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 70px;
+grid-column-gap: 25px;
 grid-row-gap: 0px;
 margin-bottom: 25px;
 max-width: 100%;
