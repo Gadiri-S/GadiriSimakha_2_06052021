@@ -125,9 +125,7 @@ footer li {
 p {
     margin-left: /*25px*/ auto;
 } 
-h1 {
-    /*margin-left: 25px;*/
-}
+
 
 /*bouton*/
 
@@ -322,6 +320,9 @@ color: green;
   width: 250px;
   border-radius: 10px 10px 0 0 ;
 
+  object-fit: cover;
+
+
  
 
 }
@@ -330,6 +331,9 @@ color: green;
   height: 150px;
   width: 150px;
   border-radius: 10px 0 0 10px;
+
+  object-fit: cover;
+
 }
 
 
@@ -407,6 +411,7 @@ em {
 #Hebergements h3 {
     font-size: 17px ;
     margin-left: 35px;
+    cursor: pointer;
 }
 
 
@@ -472,12 +477,18 @@ figcaption {
     height : 400px ;
 width : 300px ;
 border-radius: 10px 10px 0 0 ;
+
+object-fit: cover;
 }
 
 .img_activites_width { 
     height : 150px ;
 width : 300px;
 border-radius: 10px 10px 0 0 ;
+
+object-fit: cover;
+
+
 }
 
 
