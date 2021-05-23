@@ -421,15 +421,6 @@ aside {
 
 
 
-/*.style_aside  {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color:black;
-padding-bottom: 15px;
-    
-}*/
 
 .style_aside a {
     display: flex;
@@ -537,11 +528,11 @@ border-bottom-right-radius: 10px;
 /*************************************************************************************************************************/
 
 
-@media screen and (max-device-width : 375px) 
+@media screen and (min-device-width : 360px) and (max-device-width : 768px)
     
  {
     
-/* Header */
+/* Header ******************************************************************************************************************/
 
 header {
     display: flex;
@@ -555,17 +546,33 @@ nav {
     max-width: 100%;
 }
 
+#logo {
+    display: flex;
+flex-direction: column;
+align-self: flex-start;
+}
+nav p {
+display: flex;
+flex-direction: column;
+align-self: flex-start;
+
+}
+
 nav li {
     width: 50%;
+
     text-align: center;
+    margin-top: 150px;
 }
 
 nav li a {
     display: block;
-    padding: 15px 0;
     border-bottom: 2px solid #F2F2F2;
 }
-
+ nav li  :hover {
+border-bottom: 3px solid #0065FC;
+border-top: none;
+}
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -579,6 +586,10 @@ nav a {
 font-weight: bold;
 
 }
+
+#inscrire :hover {
+    border:none;
+}
    
 
 /* ****************************************************************************************************************** */
@@ -587,7 +598,6 @@ font-weight: bold;
 #Filtres  {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50%;
 
 }
 
@@ -598,20 +608,28 @@ font-weight: bold;
   display: inline-flex;
   flex-direction: column;
   padding-bottom: 25px;
-  width: 100%;
+  width:100%;
 }
 
 #Animaux {
    margin-left: 0px;
+   width: 50%;
+
 }
 #Romantique {
 margin-left: 0px;
+margin-right: 50px;
 
 }
 #Familial {
+
+    margin-left: 0px;
+    margin-right: 20px;
+
 }
 #Economique {
     margin-left: 0px;
+    margin-right: 20px;
 
 }
 
@@ -726,6 +744,11 @@ h1 {
     flex-wrap: nowrap;
 
     
+
+}
+
+#test4 {
+    color:red;
 }
 
 /*Activités*/ 
