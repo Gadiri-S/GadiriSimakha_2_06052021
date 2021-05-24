@@ -478,9 +478,11 @@ object-fit: cover;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 50px;
+grid-column-gap: 100px;
 grid-row-gap: 10px;
 margin-bottom: 25px;
+max-width: 100%;
+
   }
 
   
@@ -524,6 +526,11 @@ border-bottom-right-radius: 10px;
 
 }
 
+#Activités {
+    max-width: 100%;
+
+}
+
 
 /*************************************************************************************************************************/
 
@@ -533,11 +540,13 @@ border-bottom-right-radius: 10px;
  {
     
 /* Header ******************************************************************************************************************/
-
+/*
 header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    max-width: 100%;
+
 }
 
 nav {
@@ -555,6 +564,8 @@ nav p {
 display: flex;
 flex-direction: column;
 align-self: flex-start;
+max-width: 100%;
+
 
 }
 
@@ -577,10 +588,12 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 nav a {
     display: inline-block;
+
 }
 #inscrire {
 font-weight: bold;
@@ -590,7 +603,7 @@ font-weight: bold;
 #inscrire :hover {
     border:none;
 }
-   
+   */
 
 /* ****************************************************************************************************************** */
 
@@ -613,23 +626,25 @@ font-weight: bold;
 
 #Animaux {
    margin-left: 0px;
-   width: 50%;
+   width: 70%;
+   padding-right: 0px;
 
 }
 #Romantique {
 margin-left: 0px;
 margin-right: 50px;
 
+
 }
 #Familial {
 
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 0px;
 
 }
 #Economique {
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 5px;
 
 }
 
@@ -658,12 +673,18 @@ margin-right: 50px;
    
 }
 
+#lieu {
+    width: 300px;
+    max-width: 100%;
+}
 
+::placeholder {
+    font-size: 25px;
+    color: black;
+}
 form {
-    display: flex;
-    justify-self: center;
-    margin-top: 35px;
-    margin-right: 50px;
+    display: inline-flex;
+    margin-top: 50px;
 }
 /*footer*/
 
@@ -689,12 +710,15 @@ margin-left: 0px;}
    width: 100%;
    margin-left: 0px ;
    margin-right: 0px;
+   max-width: 100%;
 
 }
 
 .style_aside a {
     display: flex;
     align-self: center;
+    max-width: 100%;
+
 
  
  }
@@ -702,6 +726,8 @@ margin-left: 0px;}
  .img_populaires {
      height: 200px;
      width: 200px ;
+     max-width: 100%;
+
  }
 
  figcaption {
@@ -714,8 +740,14 @@ margin-left: 0px;}
 .img_hebergements {
     height: 150px;
     width: 480px;
+    max-width: 100%;
+
 }
 
+.test {
+   box-shadow: 0px 8px 10px -3px rgba(0,0,0,0.19);
+
+}
 
 h1 {
     font-size: 25px;
@@ -725,6 +757,8 @@ h1 {
     flex-direction: row;
     justify-content: flex-start;
     font-size: 20px;
+    max-width: 100%;
+
 }
 
 #Hebergements {
@@ -733,6 +767,8 @@ h1 {
     align-self: center;
     order:2;
     margin: 0px;
+    max-width: 100%;
+
 
 
 }
@@ -742,6 +778,8 @@ h1 {
     background-color: white;
     width: 100%;
     flex-wrap: nowrap;
+    max-width: 100%;
+
 
     
 
@@ -758,6 +796,8 @@ h1 {
     display: flex;
     flex-direction: column;
 align-self: center;
+max-width: 100%;
+
 }
 
  
@@ -766,6 +806,8 @@ align-self: center;
   #grande_section {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+
    
   }
 
@@ -773,10 +815,13 @@ align-self: center;
 
     display: flex;
     margin: auto;
+    max-width: 100%;
+
 }
 
 .container {
     border: 1px solid red;
+    max-width: 100%;
 
 }
 
@@ -785,12 +830,16 @@ align-self: center;
 .container_grid {
     display: flex;
     flex-direction: column;
-justify-content: space-evenly;}
+justify-content: space-evenly;
+max-width: 100%;
+}
 
 .img_activites_height {
     display: flex;
     height: 200px;
     width: 480px;
+    max-width: 100%;
+
 }
 
 .img_activites_width {
@@ -798,6 +847,8 @@ justify-content: space-evenly;}
 
     height: 200px;
     width:480px;
+    max-width: 100%;
+
 }
 
 
