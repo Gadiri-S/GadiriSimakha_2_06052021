@@ -483,6 +483,7 @@ grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 100px;
 grid-row-gap: 10px;
 margin-bottom: 25px;
+width: 100%;
 max-width: 100%;
 
   }
@@ -538,7 +539,7 @@ border-bottom-right-radius: 10px;
 /*************************************************************************************************************************/
 
 
-@media screen and (min-device-width : 360px) and (max-device-width : 768px)
+@media screen and (min-device-width : 0px) and (max-device-width : 768px)
     
  {
     
@@ -594,6 +595,7 @@ text-align: center;
 nav ul  {
     border-bottom: 3px solid red;
 max-width: 100%;
+padding-left: 0px;
 }
 
 
@@ -624,13 +626,16 @@ nav a {
     width: 100%;
 }
   #menu_Hebergements {
-  
-
+    width: 100%;
+    max-width: 50%;
 }
 
 
   #menu_Activités {
-
+    
+    width: 100%;
+    max-width: 50%;
+  
 }
   
 
@@ -841,12 +846,12 @@ max-width: 95%;
 
     display: flex;
     margin: auto;
-    max-width: 100%;
 
 }
 
 .container {
     border: 1px solid red;
+    width: 100%;
     max-width: 100%;
 
 }
