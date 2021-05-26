@@ -1,8 +1,25 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 
 /*media queries*/
 
+@media screen and (min-device-width : 1800px) and (max-device-width: 2000px) {
+
+    .container_grid { 
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap:  3.5%;
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+    
+      }
+    }
 
 
 
@@ -929,17 +946,3 @@ max-width: 100%;
 
 }
 
-@media screen and (min-device-width : 1800px) and (max-device-width: 2000px) {
-
-    .container_grid { 
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap:  3.5%;
-    grid-row-gap: 10px;
-    margin-bottom: 25px;
-    width: 100%;
-    max-width: 100%;
-    
-      }
-    }
