@@ -442,7 +442,9 @@ figcaption {
 
   }
 
- 
+ #graph {
+     float: right;
+ }
 
 
 
@@ -593,7 +595,8 @@ text-align: center;
 
 
 nav ul  {
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid #F2F2F2;
+
 max-width: 100%;
 padding-left: 0px;
 }
@@ -619,22 +622,26 @@ width: 100%;
 }
 nav li:hover {
     width: 100%;
-    border-bottom: 4px solid #0065FC;
+    border-bottom: 5px solid #0065FC;
     padding-bottom: 25px;
 }
 nav a {
     width: 100%;
 }
   #menu_Hebergements {
-    width: 100%;
-    max-width: 50%;
+      display: block;
+      padding-right: 15%;
+      padding-left: 5%;
+
 }
 
 
   #menu_Activités {
-    
-    width: 100%;
-    max-width: 50%;
+
+    display: block;
+    padding-left: 20%;
+    padding-right: 7%;
+
   
 }
   
@@ -764,6 +771,10 @@ margin-left: 0px;}
 
  }
 
+ figcaption {
+     width: 30%;
+     max-width: 30%;
+ }
 
 
 /*hebergement*/
@@ -889,6 +900,46 @@ max-width: 100%;
 
 
 
-@media screen and (max-device-width: 480px) {
+@media screen and (min-device-width : 768px) and (max-device-width : 992px) {
+
+
+
+
+
+    body {
+
+        display: flex;
+        margin: auto;
+    
+    }
+    
+    .container {
+        border: 1px solid red;
+        width: 100%;
+        max-width: 100%;
+    
+    }
+
+
+
+
+
+
+
 
 }
+
+@media screen and (min-device-width : 1800px) and (max-device-width: 2000px) {
+
+    .container_grid { 
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap:  3.5%;
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+    
+      }
+    }
