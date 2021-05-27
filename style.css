@@ -528,6 +528,8 @@ border-bottom-right-radius: 10px;
 
 }
 
+/*************************************************************************************************************************/
+
 
 @media screen and (min-width:1360px) and (max-width:1400px){
 
@@ -545,6 +547,70 @@ border-bottom-right-radius: 10px;
     }
   }
 /*************************************************************************************************************************/
+@media screen and (min-device-width : 768px) and (max-device-width : 992px) {
+
+
+
+
+
+    body {
+
+        display: flex;
+        margin: auto;
+    
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+    
+    }
+
+    #Filtres  {
+        display: inline-flex;
+        flex-wrap: nowrap;
+    
+    }
+    
+    #Animaux {
+max-width: 35% ;    }
+    
+    
+    
+    #titre_filtres {
+      display: inline-flex;
+      flex-direction: column;
+      padding-bottom: 25px;
+      width:100%;
+    }
+    
+   
+    .style_aside a {
+        display: flex;
+        align-self: center;
+        width: 100%;
+        margin-left: 0px ;
+        margin-right: 0px;
+        max-width: 100%;
+     
+     }
+
+}
+
+
+
+
+
+/*************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-device-width : 0px) and (max-device-width : 768px)
@@ -903,33 +969,4 @@ max-width: 100%;
 
 }
 
-
-@media screen and (min-device-width : 768px) and (max-device-width : 992px) {
-
-
-
-
-
-    body {
-
-        display: flex;
-        margin: auto;
-    
-    }
-    
-    .container {
-        border: 1px solid red;
-        width: 100%;
-        max-width: 100%;
-    
-    }
-
-
-
-
-
-
-
-
-}
 
