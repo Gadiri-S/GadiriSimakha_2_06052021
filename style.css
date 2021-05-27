@@ -259,18 +259,6 @@ right: 5px;
     top: 0px;
 }
 
-#Animaux {
-   
-}
-#Romantique {
-}
-#Familial {
-    
-
-}
-#Economique {
-
-}
 
 #Filtres a {
     color:black;
@@ -541,6 +529,21 @@ border-bottom-right-radius: 10px;
 }
 
 
+@media screen and (min-width:1368px) and (max-width:1400px){
+
+
+    .container_grid { 
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3.5%;
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+  
+    }
+  }
 /*************************************************************************************************************************/
 
 
@@ -864,7 +867,6 @@ max-width: 95%;
 }
 
 .container {
-    border: 1px solid red;
     width: 100%;
     max-width: 100%;
 
@@ -900,7 +902,6 @@ max-width: 100%;
 
 
 }
-
 
 
 @media screen and (min-device-width : 768px) and (max-device-width : 992px) {
