@@ -4,13 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 
-/*media queries*/
 
 
 
 
  .container {
-  /* max-width: 1281px;*/
    margin: auto;
     font-family: 'Raleway', sans-serif;
     color:black;
@@ -322,9 +320,7 @@ color: blue;
 
 /*Taille des images*/
 
-/*.container2 {
-    display: grid;
-}*/
+
 
 #grande_section {
     display: flex;
@@ -355,11 +351,11 @@ color: blue;
 } 
 
 
-.test a {
+.bloc_hebergement a {
     color:black;
 
 }
-.test p  {
+.bloc_hebergement p  {
     
     background-color: white;
     padding : 5px;
@@ -511,7 +507,6 @@ max-width: 100%;
     box-shadow: 0px 8px 10px -3px rgba(0,0,0,0.19);
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
-/*border: 1px solid red; */
 
 
 }
@@ -621,7 +616,7 @@ max-width: 35% ;    }
 
 
    
-#test9 {
+#bloc_responsive {
     display: inline-flex;
     padding-top: 0px;
     width: 100%;
@@ -858,7 +853,7 @@ margin-left: 0px;}
 
 }
 
-.test {
+.bloc_hebergement {
    box-shadow: 0px 8px 10px -3px rgba(0,0,0,0.19);
 
 }
@@ -866,7 +861,7 @@ margin-left: 0px;}
 h1 {
     font-size: 25px;
 }
-#test4 {
+#titre_hebergements {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -899,9 +894,6 @@ h1 {
 
 }
 
-#test4 {
-    color:red;
-}
 
 /*Activités*/ 
 
