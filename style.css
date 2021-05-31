@@ -9,9 +9,10 @@
 
 
  .container {
-   margin: auto;
     font-family: 'Raleway', sans-serif;
     color:black;
+    width:100%;
+    max-width: 100%;
 
 } 
 
@@ -54,6 +55,12 @@ nav a:hover {
     border-top: 3px solid #0065FC;
     padding-top: 25px;
 }
+    nav {
+        display: flex;
+        flex-direction:row;
+        align-self: flex-start;
+    }
+
 /*Header*/
 
 /*Footer*/
@@ -442,19 +449,23 @@ span {
 
 /*Activités*/
 
+#Activités {
+    width: 100%;
+max-width: 100%;
+}
 
 
 .img_activites_height { 
-    height : 400px ;
-width : 300px ;
+    height : 25rem ;
+width : 18.75rem ;
 border-radius: 10px 10px 0 0 ;
 
 object-fit: cover;
 }
 
 .img_activites_width { 
-    height : 150px ;
-width : 300px;
+    height : 9.375rem ;
+width : 18.75rem;
 border-radius: 10px 10px 0 0 ;
 
 object-fit: cover;
@@ -467,13 +478,13 @@ object-fit: cover;
 
 .container_grid { 
     display: grid;
+    width: 100%;
+
     grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 100px;
+grid-column-gap: 6.5%;
 grid-row-gap: 10px;
 margin-bottom: 25px;
-width: 100%;
-max-width: 100%;
 
   }
 
@@ -518,15 +529,12 @@ border-bottom-right-radius: 10px;
 
 }
 
-#Activités {
-    max-width: 100%;
 
-}
 
 /*************************************************************************************************************************/
 
 
-@media screen and (min-width:1360px) and (max-width:1400px){
+/*@media screen and (min-width:1360px) and (max-width:1400px){
 
 
     .container_grid { 
@@ -540,7 +548,7 @@ border-bottom-right-radius: 10px;
     max-width: 100%;
   
     }
-  }
+  }*/
 /*************************************************************************************************************************/
 @media screen and (min-device-width : 768px) and (max-device-width : 992px) {
 
@@ -608,7 +616,7 @@ max-width: 35% ;    }
 
 
 
-@media screen and (min-device-width : 0px) and (max-device-width : 768px)
+@media screen and (min-device-width : 360px) and (max-device-width : 768px)
     
  {
     
@@ -663,7 +671,7 @@ text-align: center;
 
 nav ul  {
     border-bottom: 2px solid #F2F2F2;
-
+width: 100%;
 max-width: 100%;
 padding-left: 0px;
 }
@@ -719,6 +727,7 @@ nav a {
 #Filtres  {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 20px;
 
 }
 
@@ -793,6 +802,7 @@ margin-right: 50px;
 form {
     display: inline-flex;
     margin-top: 50px;
+    margin-left: 25px;
 }
 /*footer*/
 
