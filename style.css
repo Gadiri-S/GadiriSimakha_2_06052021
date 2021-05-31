@@ -935,13 +935,13 @@ max-width: 100%;
 
     display: flex;
     margin: auto;
-    overflow-x: hidden;
 
 }
 
 .container {
     width: 100%;
     max-width: 100%;
+    overflow-x: hidden;
 
 }
 
