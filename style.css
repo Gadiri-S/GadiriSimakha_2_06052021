@@ -37,7 +37,6 @@ align-items: flex-end;
 #responsive_inscrire {visibility: hidden;}
 /*Logo */
 #logo {
-    /*margin-left: 25px;*/
     margin-top: 15px;
 }
 /*Nav bar*/
@@ -59,6 +58,7 @@ nav a:hover {
         display: flex;
         flex-direction:row;
         align-self: flex-start;
+
     }
 
 /*Header*/
