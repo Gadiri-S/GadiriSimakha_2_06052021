@@ -347,7 +347,7 @@ color: blue;
 
 
 
- section  {
+ .section  {
     
     display: flex;
     flex-direction: row;
@@ -451,7 +451,7 @@ span {
 
 /*Activités*/
 
-#Activités {
+#Activites {
     width: 100%;
 max-width: 100%;
 }
@@ -476,7 +476,7 @@ object-fit: cover;
 }
 
 
-.style_activités a  { color : black;}
+.style_activites a  { color : black;}
 
 .container_grid { 
     display: grid;
@@ -512,7 +512,7 @@ margin-bottom: 25px;
 
 
 
-.style_activités p {
+.style_activites p {
 
     max-width: 100%;
 
@@ -523,7 +523,7 @@ border-bottom-right-radius: 10px;
 
 }
 
-.style_activités  em {
+.style_activites  em {
    display: flex;
     align-items: center;
     margin-left: 10px;
@@ -538,7 +538,7 @@ border-bottom-right-radius: 10px;
 
   
 /*************************************************************************************************************************/
-@media screen and (min-device-width : 481px) and (max-device-width : 1200px) {
+@media  (max-width : 1200px) {
     #Filtres  {
         display: flex;
         flex-wrap: wrap;
@@ -707,7 +707,7 @@ border-bottom-right-radius: 10px;
     
     
     }
-    #Hebergements, section {
+    #Hebergements, .section {
         display:flex;
         flex-direction: column;
         background-color: white;
@@ -723,7 +723,7 @@ border-bottom-right-radius: 10px;
     
     /*Activités*/ 
     
-    .style_activités {
+    .style_activites {
        
         display: flex;
         flex-direction: column;
@@ -807,7 +807,7 @@ border-bottom-right-radius: 10px;
 
 
 
-@media screen and (min-device-width : 300px) and (max-device-width : 480px)
+@media (max-width : 480px)
     
  {
     
@@ -902,7 +902,7 @@ nav a {
 }
 
 
-  #menu_Activités {
+  #menu_Activites {
 
     display: block;
     padding-left: 5%;
@@ -1085,7 +1085,7 @@ h1 {
 
 
 }
-#Hebergements, section {
+#Hebergements, .section {
     display:flex;
     flex-direction: column;
     background-color: white;
@@ -1101,7 +1101,7 @@ h1 {
 
 /*Activités*/ 
 
-.style_activités {
+.style_activites {
    
     display: flex;
     flex-direction: column;
