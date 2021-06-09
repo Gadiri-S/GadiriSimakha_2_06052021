@@ -1046,6 +1046,7 @@ padding:15px;
      max-width: 30%;
  }
 
+ 
 
 /*hebergement*/
 
@@ -1162,4 +1163,22 @@ max-width: 100%;
 }
 
 
+ }
+
+ @media (max-width:380px) {
+    span i {
+        font-size: 12px;
+    }
+    #Animaux {
+        margin-left: 0px;
+        width: 80%;
+        padding-right: 0px;
+     
+     }
+
+     form {
+        display: inline-flex;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
  }
